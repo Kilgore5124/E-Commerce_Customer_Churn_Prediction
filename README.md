@@ -1,10 +1,10 @@
-# 🛍️ E-Commerce Customer Churn Prediction
+# E-Commerce Customer Churn Prediction
 Predicting customer churn using RFM features and machine learning
 
 This project analyzes customer transaction data from an online retail store to identify churn risks and help businesses retain their most valuable customers using predictive modeling.
 
 
-## 📑 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Business Objective](#business-objective)
 - [Dataset](#dataset)
@@ -16,7 +16,7 @@ This project analyzes customer transaction data from an online retail store to i
 
 
 
-## 🧠 Overview
+## Overview
 
 Customer churn is one of the most critical challenges for online retailers. Retaining existing customers is far more cost-effective than acquiring new ones.
 
@@ -27,7 +27,7 @@ In this project, I use real-world transaction data from a UK-based online retail
 
 
 
-## 🎯 Business Objective
+## Business Objective
 
 The goal is to help the business proactively identify at-risk customers who haven't purchased recently and are likely to churn.
 
@@ -38,7 +38,7 @@ By predicting churn likelihood, the business can:
 
 
 
-## 📦 Dataset
+## Dataset
 
 The data is from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Online+Retail).
 
@@ -48,14 +48,14 @@ The data is from the [UCI Machine Learning Repository](https://archive.ics.uci.e
 
 
 
-📝 **How to use:**
+**How to use:**
 1. [Download the dataset here (direct link)](https://archive.ics.uci.edu/ml/machine-learning-databases/00352/Online%20Retail.xlsx)
 2. Rename it as: `Online Retail.xlsx`
 3. Upload it when prompted in the notebook
 
 
 
-## ⚙️ Process Summary
+##  Process Summary
 
 1. **Data Cleaning**
    - Removed cancelled orders, negative prices/quantities, and duplicates
@@ -78,7 +78,7 @@ The data is from the [UCI Machine Learning Repository](https://archive.ics.uci.e
 
 
 
-## 📊 Key Results
+## Key Results
 
 - **Model Accuracy:** 0.86  
 - **AUC Score:** 0.89  
@@ -88,7 +88,7 @@ These results suggest the model is effective at identifying customers at risk of
 
 
 
-## 🚀 How to Run
+## How to Run
 
 You can run the project in [Google Colab](https://colab.research.google.com/) by following these steps:
 
@@ -101,7 +101,7 @@ You can run the project in [Google Colab](https://colab.research.google.com/) by
 
 
 
-## 🧰 Skills Used
+## Skills Used
 
 - Python (Pandas, NumPy)
 - Data Cleaning & Feature Engineering
